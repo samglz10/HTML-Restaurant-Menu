@@ -18,9 +18,9 @@ li {
 }
 
 img {
-    width: 100%;
+    width: auto%;
     height: auto;
-    max-width: 100%;
+    max-width: auto;
 }
 
 main {
@@ -83,10 +83,17 @@ nav a:hover {
 table {
     border: 3px solid black;
     width: 100%;
+    height: auto
 }
   
 td,
 th {
     border: 1px solid black;
     padding: 5px;
+    display: inline-block;
+}
+
+ul{
+list-style-type: none;
+text-align: center;
 }
